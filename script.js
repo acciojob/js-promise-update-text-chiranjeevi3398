@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function updateElementText() {
   return new Promise((resolve) => {
-    setTimeout(() = { 
+    setTimeout(() => { 
       resolve("Hello, world!");
 }, 1000);
 });
@@ -9,7 +9,6 @@ function updateElementText() {
 
  // Update HTML element text
 
-const outputElement = document.getElemen
-
-tById("output"); oupdateElementText().then((text) => {
+const outputElement = document.getElementById("output"); 
+updateElementText().then((text) => {
   outputElement.textContent = text; });
